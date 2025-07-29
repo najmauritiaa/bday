@@ -48,7 +48,7 @@ now = datetime.now()
 countdown = birthday - now
 
 # 🎉 Title
-st.title("🎂Setison's Birthday Countdown🎂")
+st.title("🎂Dylon's Birthday Countdown🎂")
 st.markdown(
     "<p style='text-align: center; font-size: 16px; color: white;'>"
     "🎈 17 August"
@@ -101,7 +101,7 @@ presents = [
     "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "👀brrrrr",
+    "👀",
 ]
 
 
@@ -115,3 +115,31 @@ for i in range(4):
 if st.session_state.get("card_picked", False):
     st.success(f"You got: {st.session_state.card_result}")
     st.balloons()
+
+# 💖 Favorite Moments Section
+st.markdown("---")
+st.markdown("## Recap")
+
+moments = [
+    ("🏖️ First Date", "kek orang tolol tapi lucu dah"),
+    ("🌌 ", "Your smile ofc dan juga "),
+    ("🎉 Birthday Surprise 2023", "Seeing your reaction when we showed up with cake and balloons 😄."),
+    ("📚 Library Study Sessions", "Not much studying... but definitely lots of laughter."),
+    ("🚴‍♀️ Random Adventures", "From unplanned detours to finding hidden spots, every moment felt like a movie."),
+]
+
+for title, description in moments:
+    with st.expander(title):
+        st.write(description)
+
+# 🙏 Birthday Wish Input
+st.markdown("---")
+st.markdown("## Birthday Wish")
+
+wish = st.text_area(placeholder="Type your birthday wish here...")
+
+if st.button("Send Wish"):
+    if wish.strip() != "":
+        st.success("Aamiin.")
+    else:
+        st.warning("Please write something before submitting!")
