@@ -101,7 +101,7 @@ presents = [
     "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "😜brrr",
+    "👀brrrrr",
 ]
 
 
