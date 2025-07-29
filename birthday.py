@@ -101,7 +101,7 @@ presents = [
     "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "👀",
+    "Najma Cantik",
 ]
 
 
@@ -118,14 +118,12 @@ if st.session_state.get("card_picked", False):
 
 # 💖 Favorite Moments Section
 st.markdown("---")
-st.markdown("## Recap")
+st.markdown("## Memory Milestones")
 
 moments = [
-    ("🏖️ First Date", "kek orang tolol tapi lucu dah"),
-    ("🌌 ", "Your smile ofc dan juga "),
-    ("🎉 Birthday Surprise 2023", "Seeing your reaction when we showed up with cake and balloons 😄."),
-    ("📚 Library Study Sessions", "Not much studying... but definitely lots of laughter."),
-    ("🚴‍♀️ Random Adventures", "From unplanned detours to finding hidden spots, every moment felt like a movie."),
+    ("Pros", "punya pacar cantik"),
+    ("Cons", "kebo"),
+    ("My Hopes for U", "semoga sukses banyak duit jangan males dan jangan cuek sama aku. semangat magang dan kuliahnya yaa. ily"),
 ]
 
 for title, description in moments:
@@ -136,10 +134,10 @@ for title, description in moments:
 st.markdown("---")
 st.markdown("## Birthday Wish")
 
-wish = st.text_area("",placeholder="Type your birthday wish here...")
+wish = st.text_area("",placeholder="Type here...")
 
 if st.button("Send Wish"):
     if wish.strip() != "":
-        st.success("Aamiin.")
+        st.success("Aamiin")
     else:
         st.warning("Please write something before submitting!")
