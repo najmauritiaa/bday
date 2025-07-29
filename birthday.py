@@ -118,12 +118,12 @@ if st.session_state.get("card_picked", False):
 
 # 💖 Favorite Moments Section
 st.markdown("---")
-st.markdown("## Memory Milestones")
+st.markdown("## 🖋 ")
 
 moments = [
     ("Pros", "punya pacar cantik"),
     ("Cons", "kebo"),
-    ("My Hopes for U", "semoga sukses, banyak duit, jangan males dan jangan cuek sama aku. semangat magang dan kuliahnya yaa. love u🤍"),
+    ("Note", "semoga sukses, banyak duit, kurangin cueknya ke aku sama jangan males. semangat yaww kuliahnya. love u🤍"),
 ]
 
 for title, description in moments:
