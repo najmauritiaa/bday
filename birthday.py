@@ -118,7 +118,7 @@ if st.session_state.get("card_picked", False):
 
 # 💖 Favorite Moments Section
 st.markdown("---")
-st.markdown("## 🖋 ")
+st.markdown("## About You ")
 
 moments = [
     ("Pros", "punya pacar cantik"),
