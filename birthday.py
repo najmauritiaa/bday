@@ -98,13 +98,12 @@ st.markdown("## Pick a Card to Reveal Your Themed Gift!")
 
 cards = ["🎴 Card 1", "🎴 Card 2", "🎴 Card 3", "🎴 Card 4"]
 presents = [
-    "⚽Sports",
+    "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "💦Night Cardio",
+    "brrr moment",
 ]
 
-random.shuffle(presents)
 
 cols = st.columns(4)
 for i in range(4):
