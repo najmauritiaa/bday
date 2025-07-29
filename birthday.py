@@ -101,7 +101,7 @@ presents = [
     "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "brrr moment",
+    "😜brrr",
 ]
 
 
@@ -113,5 +113,5 @@ for i in range(4):
 
 # 🎁 Show Result
 if st.session_state.get("card_picked", False):
-    st.success(f"🎁 You got: {st.session_state.card_result}")
+    st.success(f"You got: {st.session_state.card_result}")
     st.balloons()
