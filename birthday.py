@@ -48,7 +48,7 @@ now = datetime.now()
 countdown = birthday - now
 
 # 🎉 Title
-st.title("🎂Dylon's Birthday Countdown🎂")
+st.title("🎂Setison's Birthday Countdown🎂")
 st.markdown(
     "<p style='text-align: center; font-size: 16px; color: white;'>"
     "🎈 17 August"
