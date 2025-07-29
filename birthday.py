@@ -132,11 +132,11 @@ for title, description in moments:
     with st.expander(title):
         st.write(description)
 
-# 🙏 Birthday Wish Input
+# Birthday Wish Input
 st.markdown("---")
 st.markdown("## Birthday Wish")
 
-wish = st.text_area(placeholder="Type your birthday wish here...")
+wish = st.text_area("",placeholder="Type your birthday wish here...")
 
 if st.button("Send Wish"):
     if wish.strip() != "":
