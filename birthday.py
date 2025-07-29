@@ -101,7 +101,7 @@ presents = [
     "⚽Sports Essentials",
     "👕Apparel/Accessories",
     "🪀Toys/Figurine",
-    "Najma Cantik",
+    "👀Secret",
 ]
 
 
@@ -123,7 +123,7 @@ st.markdown("## Memory Milestones")
 moments = [
     ("Pros", "punya pacar cantik"),
     ("Cons", "kebo"),
-    ("My Hopes for U", "semoga sukses banyak duit jangan males dan jangan cuek sama aku. semangat magang dan kuliahnya yaa. ily"),
+    ("My Hopes for U", "semoga sukses, banyak duit, jangan males dan jangan cuek sama aku. semangat magang dan kuliahnya yaa. love u🤍"),
 ]
 
 for title, description in moments:
