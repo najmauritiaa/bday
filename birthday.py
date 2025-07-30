@@ -123,7 +123,7 @@ st.markdown("## About You ")
 moments = [
     ("Pros", "punya pacar cantik"),
     ("Cons", "kebooo"),
-    ("Note", "semoga sukses, rajin ibadah, makin banyak duit, sama jangan cuek ke aku hiks. semangat yaww kuliahnya. love u🤍"),
+    ("Note", "semoga sukses, rajin ibadah, makin banyak duit, sama jangan cuek ke aku ok. semangat kuliahnya yaw. love u🤍"),
 ]
 
 for title, description in moments:
